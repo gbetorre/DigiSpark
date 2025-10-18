@@ -4,10 +4,9 @@ Localizzazione in italiano della libreria per la programmazione del microcontrol
 
 ## _Nota dell'autore_
 
-_Durante il percorso universitario di ingegneria informatica ho realizzato un progetto sui microcontrollori Arduino compatibili, con un focus particolare sul DigiSpark._
+_Alcuni anni fa realizzai un progetto sui microcontrollori Arduino compatibili, con un focus particolare sul DigiSpark._
 
-_Quel lavoro, supervisionato dal docente dell'esame di Internet of Things, ha prodotto una documentazione che, trascorsi diversi anni, ho pensato ora di rendere pubblica,
-sperando che possa essere utile, come spunto o curiosità, per qualche studente di materie STEM._
+_Quel lavoro, supervisionato dall'allora docente dell'esame di Internet of Things, ha prodotto una documentazione che, trascorsi diversi anni, ho pensato ora di rendere pubblica, sperando che possa essere utile, come spunto o per curiosità, a qualche studente di materie STEM._
 
 ---
 
