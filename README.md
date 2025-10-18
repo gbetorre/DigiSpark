@@ -3,7 +3,7 @@ Italian localization of the library for programming the Digispark ATTiny85 8-bit
 
 # Emulation of USB peripherals via microcontrollers and cybersecurity risk
 
-**_Essay by G. Torre_**
+**_Essay by G. Torre_**<br>
 &copy; G. Torre, 2021
 
 ## Introduction
@@ -24,3 +24,16 @@ The “flashing” task is further simplified by using Digispark, an Arduino-com
 This type of attack can be carried out on all platforms: Windows, Mac, and Linux, after customizing the scripts and syntax of the commands to be executed. 
 
 Below, we will explore the implementation and programming details of these interesting  microcontrollers, as well as their counterpart in terms of cybersecurity risks.
+
+### 1. Digispark Rev.3 ATTiny85
+
+In section 1, we will examine, in some detail, the Digispark microcontroller board, based on the ATTiny85 microcontroller chip. We will then look at the device's features, diagram, and pinout.
+
+We will then move on to configuring the operating environment for programming the microcontroller; in particular: configuring the drivers for recognition by the operating system, connecting the device, and recognizing the board from within the Arduino IDE.
+
+#### 1.1 - Overview
+
+The Digispark microcontroller discussed in this article is a compact microcontroller development board based on the ATTiny85 chip, a high-performance, low-power 8-bit microcontroller chip formerly manufactured by Atmel and now by Microchip, with 8 KB of programmable flash memory, of which 2 KB is required for the bootloader microkernel and 6 KB is available for programs. 
+
+It is a very inexpensive product, available for a few dollars in digital stores, but this does not mean it is of little value. The device is, in fact, a sophisticated, high-performance, programmable 8-bit microcontroller, natively equipped with a convenient USB OTG connector and, moreover, compatible with Arduino, with which it can be integrated into projects, and whose programming can be done using the same IDE, with a few minor customizations that we will see later.
+
