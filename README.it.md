@@ -17,6 +17,8 @@ Progetto:
 INTERNET OF THINGS<br>
 INGEGNERIA INFORMATICA E DELL'AUTOMAZIONE (D.M. 270/04)
 
+![Original cover](assets/images/Cover.png)
+
 ## Introduzione
 
 La pervasività delle porte USB nei moderni computer rappresenta una grande comodità ma comporta
@@ -70,4 +72,10 @@ alte prestazioni, dotato nativamente di un comodo connettore USB OTG e, per di p
 con Arduino, con cui può essere integrato nei progetti, e la cui programmazione può essere fatta
 sfruttando lo stesso IDE, con alcune piccole personalizzazioni che vedremo più avanti.
 
+![Digispark Rev.3](assets/images/Figure_1-Board.png)
+
+**_Figura 1 - Il microcontrollore Digispark_**<br>
+_(immagine tratta dalla documentazione venduta in bundle con la schedina da AZ-Delivery:_<br>
+AA.VV.: **Digispark Rev.3 ATTiny85 Quick-Start-Guide,** AZ-Delivery E-Book,
+Vertriebs GmbH,  pag. 1)
 
