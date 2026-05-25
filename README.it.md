@@ -79,3 +79,32 @@ _(immagine tratta dalla documentazione venduta in bundle con la schedina da AZ-D
 AA.VV.: **Digispark Rev.3 ATTiny85 Quick-Start-Guide,** AZ-Delivery E-Book,
 Vertriebs GmbH,  pag. 1)
 
+#### 1.2 - Schema e caratteristiche
+
+Le specifiche tecniche più importanti del dispositivo Digispark Rev.3 sono le seguenti:
+
+| Caratteristica tecnica | Valore |
+| :--- | :--- |
+| Tensione d'esercizio | `2.7V – 5.5V (300µA)` |
+| Tensione di alimentazione esterna | `6V - 12V (VIN pin)` |
+| Pin Input/Output | `6 pin multiuso (analogico, digitale)` |
+| Memoria | `8 KB (di cui 6 KB utilizzabili per i programmi)` |
+| Dimensioni | `mm 20 x 19 x 6` |
+
+Uno dei principali vantaggi di questo dispositivo è che esso può essere alimentato direttamente
+tramite la porta USB incorporata ma, qualora questa fosse già impegnata per altro scopo (p.es.
+interfacciamento del dispositivo con altri componenti),  può anche essere alimentato tramite tre pin
+di alimentazione aggiuntivi. 
+
+Il Digispark ha anche due led di bordo, necessari per capire se la scheda
+sta funzionando e cosa sta facendo (p.es. alimentazione: _led fisso_; caricamento programma tramite
+IDE: _lampeggiamento veloce_; etc.). Un led è appunto dedicato all’indicazione dell’alimentazione;
+l’altro è un led di stato, collegato, nella Digispark Rev.3, al pin1 (PB1); ciò rappresenta un
+vantaggio, perché nelle versioni con il led collegato al pin0 vi era la necessità di scollegarlo se si
+voleva comunicare con dispositivi dotati di interfaccia I2C.<br>
+La piedinatura del dispositivo è quindi la seguente:
+
+![Board pin-out](assets/images/Figure_2-Pinout.png)
+
+**_Figura 2 - Piedinatura del Digispark Rev.3_**
+
